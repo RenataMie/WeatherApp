@@ -1,0 +1,73 @@
+body {
+	background-color: blue;
+}
+
+
+form {
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 2rem;
+}
+
+form label{
+	color: #2ECFCA;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+form input{
+	border: solid 3px transparent;
+  	border-bottom: dashed 3px #2ECFCA;
+  	background: transparent;
+  	font-family: 'Montserrat', sans-serif;
+  	color: black;
+  	outline: none;
+  	font-size: 20px;
+  	text-align: center;
+
+}
+
+form button{
+  /*height: 35px;
+  width: 35px;*/
+  border-radius: 10%;
+  border-color: transparent;
+  background-color: #2ECFCA;
+  color: #fff;
+  font-size: 25px;
+  padding: 6px;
+  border-width: 0;
+  position: relative;
+  top:15px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.split {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #E6F7F1;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
